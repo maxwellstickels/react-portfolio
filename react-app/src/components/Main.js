@@ -1,5 +1,12 @@
 import React from 'react';
 import '../App.css';
+import me from '../images/me.jpg';
+import coding_quiz from '../images/coding-quiz.PNG';
+import sports_app from '../images/baseball-r-us.png';
+import hotel_coding from '../images/hotel-coding.PNG';
+import spacedogs from '../images/spacedogs.PNG';
+import weather_tracker from '../images/weather-tracker.PNG';
+
 
 const divSizes = {
     small: {
@@ -30,7 +37,7 @@ function Main() {
                         Currently I am taking a break from studying Computer Science at the California Institute of Technology. While there, I picked up several programming languages - mainly C/C++, Java, Python, and OCaml.
                     </p>
                 </article>
-                <img id="me" className="bordered" src={"images/me.jpg"} alt="Maxwell Stickels"/>
+                <img id="me" className="bordered" src={me} alt="Maxwell Stickels"/>
                 <div style={divSizes.medium}></div>
             </section>
             <section>
@@ -39,7 +46,7 @@ function Main() {
                 <div style={divSizes.large}></div> 
                 <section id="main-work" className="bordered">
                     <a href="https://maxwellstickels.github.io/coding-quiz/">
-                        <img className="work-img" src={"images/coding-quiz.PNG"} alt="Coding Quiz"/>
+                        <img className="work-img" src={coding_quiz} alt="Coding Quiz"/>
                     <div id="work-title">
                         <h3>Coding Quiz!</h3>
                         <p>Built with HTML/CSS/Javascript</p>
@@ -49,32 +56,32 @@ function Main() {
                 <section id="small-works">
                     <section className="bordered small-work">
                         <a href="https://maxwellstickels.github.io/sports-app/">
-                            <img className="work-img" src={"images/baseball-r-us.png"} alt="Baseball 'R' Us"/>
+                            <img className="work-img" src={sports_app} alt="Baseball 'R' Us"/>
                         </a>
                     </section>
                     <section className="bordered small-work">
                         <a href="https://maxwellstickels.github.io/weather-tracker">
-                            <img className="work-img" src={"images/weather-tracker.PNG"} alt="The Weather Tracker"/>
+                            <img className="work-img" src={weather_tracker} alt="The Weather Tracker"/>
                         </a>
                     </section>
                     <section className="bordered small-work">
                         <a href="https://hotel-coding.herokuapp.com/">
-                            <img className="work-img" src={"images/hotel-coding.PNG"} alt="Hotel Coding"/>
+                            <img className="work-img" src={hotel_coding} alt="Hotel Coding"/>
                         </a>
                     </section>
                     <section className="bordered small-work">
                         <a href="https://scratch.mit.edu/projects/493323101/">
-                            <img className="work-img" src={"images/spacedogs.PNG"} alt="Too Many Space Dogs"/>
+                            <img className="work-img" src={spacedogs} alt="Too Many Space Dogs"/>
                         </a>
                     </section>
                     <section className="bordered small-work">
                         <a href="https://scratch.mit.edu/projects/493323101/">
-                            <img className="work-img" src={"images/spacedogs.PNG"} alt="Too Many Space Dogs"/>
+                            <img className="work-img" src={spacedogs} alt="Too Many Space Dogs"/>
                         </a>
                     </section>
                     <section className="bordered small-work">
                         <a href="https://scratch.mit.edu/projects/493323101/">
-                            <img className="work-img" src={"images/spacedogs.PNG"} alt="Too Many Space Dogs"/>
+                            <img className="work-img" src={spacedogs} alt="Too Many Space Dogs"/>
                         </a>
                     </section>
                 </section>
