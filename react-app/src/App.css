@@ -180,6 +180,11 @@ a img:hover {
   margin:10px auto;
 }
 
+.nav-selected {
+  color:var(--yellow);
+  text-decoration: underline;
+}
+
 form label {
   font-weight: bold;
 }

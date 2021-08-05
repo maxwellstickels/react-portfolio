@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import Project from './Project';
 
 function Header() {
     return (
@@ -8,13 +9,13 @@ function Header() {
                 <h1><span id="maxwell">MAXWELL</span> STICKELS</h1>
                 <ul id="links">
                     <li>
-                        <a href="#about-me">About Me</a>
+                        <a href="#about-me" onClick={Project({selected: 1})}>About Me</a>
                     </li>
                     <li>
-                        <a href="#works">Published Works</a>
+                        <a href="#works" onClick={Project({selected: 2})}>Published Works</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact Info</a>
+                        <a href="#contact" onClick={Project({selected: 3})}>Contact Info</a>
                     </li>
                 </ul>
             </nav>
