@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.4e5fbc6c.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.14162c59.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.14162c59.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.ec478a31.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.ec478a31.js.map",
+    "static/js/2.16773831.chunk.js": "/react-portfolio/static/js/2.16773831.chunk.js",
+    "static/js/2.16773831.chunk.js.map": "/react-portfolio/static/js/2.16773831.chunk.js.map",
+    "static/js/3.00bdab15.chunk.js": "/react-portfolio/static/js/3.00bdab15.chunk.js",
+    "static/js/3.00bdab15.chunk.js.map": "/react-portfolio/static/js/3.00bdab15.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.4e5fbc6c.chunk.css.map": "/react-portfolio/static/css/main.4e5fbc6c.chunk.css.map",
+    "static/js/2.16773831.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.16773831.chunk.js.LICENSE.txt",
+    "static/media/baseball-r-us.60df9920.png": "/react-portfolio/static/media/baseball-r-us.60df9920.png",
+    "static/media/coding-quiz.c5551e5f.PNG": "/react-portfolio/static/media/coding-quiz.c5551e5f.PNG",
+    "static/media/App.css": "/react-portfolio/static/media/diamond.bd50308d.jpeg",
+    "static/media/hotel-coding.433c52c3.PNG": "/react-portfolio/static/media/hotel-coding.433c52c3.PNG",
+    "static/media/me.226ea9d1.jpg": "/react-portfolio/static/media/me.226ea9d1.jpg",
+    "static/media/spacedogs.66e81fb5.PNG": "/react-portfolio/static/media/spacedogs.66e81fb5.PNG",
+    "static/media/weather-tracker.cb417796.PNG": "/react-portfolio/static/media/weather-tracker.cb417796.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec478a31.js",
+    "static/js/2.16773831.chunk.js",
+    "static/css/main.4e5fbc6c.chunk.css",
+    "static/js/main.14162c59.chunk.js"
+  ]
+}
