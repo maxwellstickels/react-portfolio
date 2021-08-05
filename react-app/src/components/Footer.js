@@ -3,11 +3,10 @@ import '../App.css';
 
 function Footer() {
     return (
-        <div id="body-layer-2">
-            <footer>
-                <p>Made by Maxwell Stickels in Visual Studio Code</p>
-            </footer>
-        </div>
+        <footer>
+            <p>Made by Maxwell Stickels in Visual Studio Code</p>
+            <p><a href="https://www.linkedin.com/in/maxwell-stickels-43b40419a/">LinkedIn</a> | <a href="https://github.com/maxwellstickels/">GitHub</a> | <a href="https://drive.google.com/file/d/1XgG6wcjMYNNVyKoblEBpW4D_75Hxv0VN/view?usp=sharing">Resume</a></p>
+        </footer>
     );
 }
 

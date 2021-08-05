@@ -173,12 +173,28 @@ a img:hover {
   opacity:50%;
 }
 
-#contact-list {
-  list-style:square;
+.contact-input {
+  width:50%;
+  background-color: var(--purpleheader);
+  color:black;
+  margin:10px auto;
 }
 
-#contact-list li {
-  margin: 20px 0px;
+form label {
+  font-weight: bold;
+}
+
+#contact-submit {
+  background-color: var(--purpledark);
+  border: 2px solid var(--purplelight);
+  border-radius: 5px;
+  font-weight: bold;
+  padding:5px;
+}
+
+#contact-submit:hover {
+  background-color: var(--purplelight);
+  border-color: var(--purpleheader);
 }
 
 footer {

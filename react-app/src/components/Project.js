@@ -20,7 +20,7 @@ const divSizes = {
     },
 };
 
-function Main() {
+function Project() {
     return (
         <main>
             <section className="paragraphs">
@@ -89,15 +89,21 @@ function Main() {
             </section>
             <div style={divSizes.large}></div>
             <section>
-                <h2 id="contact">Contact Info</h2>
+                <h2 id="contact">Contact Me</h2>
                 <hr/>
                 <article className="article-text">
-                    <ul id="contact-list">
-                        <li>Email Address: <a href="mailto:maxwellstickels@gmail.com">maxwellstickels@gmail.com</a></li>
-                        <li>LinkedIn: <a href="https://www.linkedin.com/in/maxwell-stickels-43b40419a/">https://www.linkedin.com/in/maxwell-stickels-43b40419a/</a></li>
-                        <li>GitHub: <a href="https://github.com/maxwellstickels/">https://github.com/maxwellstickels/</a></li>
-                        <li>Resume: <a href="https://drive.google.com/file/d/1XgG6wcjMYNNVyKoblEBpW4D_75Hxv0VN/view?usp=sharing">via Google Drive</a></li>
-                    </ul>
+                    <form action="/action_page.php">
+                        <label for="contact-name"><i>Name: </i></label>
+                        <input id="contact-name" className="contact-input"></input>
+                        <br/>
+                        <label for="contact-name"><i>Email: </i></label>
+                        <input id="contact-email" className="contact-input"></input>
+                        <br/>
+                        <label for="contact-name"><i>Message: </i></label>
+                        <input id="contact-text" className="contact-input"></input>
+                        <br/>
+                        <button id="contact-submit">Submit</button>
+                    </form>
                 </article>
                 <div style={divSizes.medium}></div>
             </section>
@@ -105,4 +111,4 @@ function Main() {
     )
 }
 
-export default Main;
+export default Project;
